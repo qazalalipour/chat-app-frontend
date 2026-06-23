@@ -15,7 +15,7 @@ onMounted(async () => {
 const activeRoomId = computed(() => Number(route.params.id))
 
 const goToRoom = (id: number) => {
-    router.push(`/chat/${id}`)
+    router.push(`/rooms/${id}`)
 }
 </script>
 
